@@ -12,7 +12,7 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-nav ul .title {
+nav, ul, .title {
   background-color: white;
   height: 52px;
   z-index: 300;
@@ -29,4 +29,11 @@ nav ul .title {
   font-weight: 600;
   color: #1d1d1f;
   -webkit-font-smoothing: antialiased;
+}
+
+.title {
+  position: absolute;
+  left: 0px;
+  width: 30%;
+  padding: 10px;
 }
