@@ -37,3 +37,8 @@ nav, ul, .title {
   width: 30%;
   padding: 10px;
 }
+
+.content {
+  position: absolute;
+  top: 52px;
+}
